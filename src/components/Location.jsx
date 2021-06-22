@@ -77,4 +77,7 @@ display: flex;
 .busImg{
     width:30px;
 }
+.fas{
+    padding-top:20px;
+}
 `

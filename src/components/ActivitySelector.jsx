@@ -48,9 +48,22 @@ button {
 border-radius: 15px;
 padding: 5px 15px;
 border: 0px;
-margin: 16px 4px;
+margin-top: 16px ;
+margin-bottom: 16px;
+margin-left: calc(.5px + .5vw);
+margin-right: calc(.5px + .5vw);
 background-color: #ececec;
-font-size:9px
+font-size:9px;
+
+@media (max-width: 400px) {
+    font-size: 6px;
+
+  }
+@media (min-width: 768px) {
+    font-size:14px;
+    
+  }
+
 }
 
 .active {
