@@ -17,7 +17,7 @@ const TagPill = styled.button`
 border-radius: 15px;
 padding: 5px 15px;
 border: 0px;
-margin: 10px 1px;
+margin: 1px 1px;
 color: white;
 
 
