@@ -1,24 +1,30 @@
 import React from 'react';
+import busStopImg from '../img/bus.svg'
+import attraction from '../img/attraction.svg'
+import mapMarker from '../img/map.svg'
+import styled from 'styled-components';
 
 function LocationLogo(props) {
     console.log(props.type);
     if(props.type=="busstop")
     return (
-        <i class="fas fa-bus"></i>
+       <img style={{width:"19px"}}  className={"icon"} src={busStopImg} alt="" />
     ) 
     else if(props.type=="attraction")
     return (
-        <i class="fas fa-camera"></i>
+        <img style={{width:"24.22px"}} className={"icon"} src={attraction} alt="" />
     )
     else if(props.type=="park")
     return (
-        <i class="fas fa-map-marker-alt"></i>
+        <img style={{width:"15.32"}} className={"icon"} src={mapMarker} alt="" />
     )
     else if(props.type=="museum")
     return (
-        <i class="fas fa-map-marker-alt"></i>
+        <img style={{width:"15.32"}} className={"icon"} src={mapMarker} alt="" />
     )
     else return <i class="fas fa-map-marker-alt"></i>
 }
 
 export default LocationLogo; 
+
+

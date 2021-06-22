@@ -56,11 +56,15 @@ display: flex;
     text-align: left;
     font-size: 16px;
     margin-top: 0px;
-    font-weight: 500;
+    font-weight: 700;
+    margin-bottom:0px;
 }
 .locationAddress {
+    margin-top:3px;
     text-align: left ;
-    font-size: 10px;
+    font-size:12.5px;
+font-weight:regular ;
+color:#5A5A5A
 }
 .detailsDiv{
     border-bottom: 1px solid gainsboro;
@@ -71,13 +75,14 @@ display: flex;
 .busImgDiv{
     border-bottom: 1px solid gainsboro;
     padding-bottom : 15px;
-    padding-top:15px;
-   
+    padding-top:10px;
+
 }
 .busImg{
     width:30px;
+    padding-top:0px;
 }
-.fas{
-    padding-top:20px;
+.icon{
+    padding-top:15px;
 }
 `

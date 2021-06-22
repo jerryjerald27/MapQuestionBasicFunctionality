@@ -15,11 +15,13 @@ export default DisplayTags;
 
 const TagPill = styled.button`
 border-radius: 15px;
-padding: 5px 15px;
+padding: 5px 10.5px;
 border: 0px;
-margin: 1px 1px;
+margin: 4px 5px;
 color: white;
+letter-spacing: 0px;
 
 
-font-size:9px
+
+font-size:12.5px
 `

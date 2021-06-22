@@ -51,5 +51,5 @@ export default App;
 const AppDiv = styled.div`
 
 background-color: lightgrey;
-padding:50px
+padding:0px
 `

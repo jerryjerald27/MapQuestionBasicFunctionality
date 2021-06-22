@@ -1,0 +1,4 @@
+Selctors that can be individualyl selected 
+Selcted Locations hold the locations filtered by the selectors 
+Maximum only 5 locations on screen at time 
+Tags Rendered dynamically based on Data , NOthing hardcoded 
